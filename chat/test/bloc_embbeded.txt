@@ -1,0 +1,39 @@
+<div class='embeddedAdd row'>
+                                  <section class='infoEmbeddedAdd col-md-12' data-url='".$info->url."'>
+                                    <section class='wrapper_descriptionURL col-md-8'>
+                                    <header>
+                                      <h1><a href='".$info->url."' target='_blank' class='pageURL'>".$info->title."</a></h1>
+                                      <span>".$info->type."</span>
+                                    </header>
+                                      <article>
+                                        <div class='containerDescriptionURL'>
+                                          <p class='descriptionURL'>
+                                            <span>Description : </span>
+                                                    ".$info->description."
+                                          </p>
+                                          <div class='followingContent'>
+                                              <p class='tagURL'>
+                                                ".implode(',', $myArrray)."
+                                              </p>
+                                              <p class='authorNameURL'> <a href='".$info->authorUrl."' title='Cliquer ici pour acceder'>".$info->authorName."</a></p> 
+                                        </div>
+                                            <p><a id='toggleButton' onclick='toggleText();'' href='javascript:void(0);'>VOIR LA SUITE</a></p>
+                                        </div>
+                                      </article>
+                                      </section>
+                                      <aside class='containerImgURL col-md-4'>
+                                        <img class='imgURL' src='".$info->image."' alt='Image URL'>  
+                                      </aside>      
+                                  </section>
+                                <div class='embeddedContainer col-md-12'>
+                                  ".$info->code."
+                                     <div class='infoProviderURL'>
+                                          <figure>
+                                            <a href='".$info->providerUrl."' title='Visiter le site'>
+                                              <img class='iconURL' src='".$info->providerIcon."' alt='icon du site'>
+                                              <figcaption>".$info->providerName."</figcaption>
+                                            </a>
+                                          </figure>
+                                      </div>
+                                 </div>
+                              </div>

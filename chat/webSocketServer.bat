@@ -1,0 +1,1 @@
+start php C:\wamp64\www\chat\chat\inc\bg.php

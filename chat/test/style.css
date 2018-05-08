@@ -1,0 +1,115 @@
+body{
+	padding:10px;
+}
+
+.embeddedAdd{
+	background: rgb(50,54,59);
+	background-size: 100%;
+	border-radius: 20px;
+	width: 620px;
+	padding: 20px;
+}
+
+.imgURL{
+	width: 100%;
+    height: 110%;
+}
+
+.infoProviderURL{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.iconURL{
+	width: 50px;
+	height: 50px;
+}
+
+.infoEmbeddedAdd{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0px !important;
+  border-radius: 20px;
+  cursor: pointer;
+  background: linear-gradient(0deg, #3f3f3f, #2a2a2a 40%, #151515);
+  background-size: 100%;
+  height: 130px;
+  color: wheat;
+  overflow: hidden;
+}
+
+.infoEmbeddedAdd:hover{
+	box-shadow: 10px 10px 40px 5px rgba(0, 0, 0, 0.7) inset;
+}
+
+.containerDescriptionURL{
+
+}
+
+.wrapper_descriptionURL{
+  
+}
+
+.descriptionURL{
+	margin-bottom: 5px;
+}
+
+.followingContent{
+	display: none;
+	height: 0px;
+}
+
+
+.wrapper_descriptionURL{
+	order: 2;
+	font-size: 0.7em;s
+}
+.containerImgURL{
+	height: 130px;
+	padding-left: 0px !important;
+	order: 1;
+}
+
+#globalwrapper{
+	width: 800px;
+}
+
+
+.wrapper_descriptionURL header h1{
+	font-size: 0.9em;
+}
+
+
+.embeddedContainer{
+	margin-top: 30px;
+	background: linear-gradient(180deg, #3f3f3f, #2a2a2a 10%, #151515);
+	padding: 15px !important;
+	border-radius: 20px;
+}
+
+.embeddedContainer iframe,  
+.embeddedContainer object,  
+.embeddedContainer embed {
+	width: 100%;
+	height: 300px;
+}
+
+.pageURL{
+	color : white;
+}
+
+.infoProviderURL figure figcaption{
+	color: silver;
+}
+
+
+.infoProviderURL{
+	float:right; 
+	clear:right;
+}
+
+.infoProviderURL figure a{
+	text-decoration: none;
+}

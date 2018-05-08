@@ -1,0 +1,1 @@
+﻿/(\.|\/)(gif|jpe?g|png|pdf|msword|vnd.openxmlformats-officedocument.wordprocessingml.document|vnd.openxmlformats-officedocument.presentationml.presentation|vnd.ms-powerpoint|vnd.openxmlformats-officedocument.spreadsheetml.sheet|vnd.ms-excel|)$/i
