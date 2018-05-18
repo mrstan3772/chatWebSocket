@@ -219,7 +219,7 @@ window.uploadFile = function(target) {
         .parent().addClass($.support.fileInput ? undefined : 'disabled');
 }
 window.connect = function(){
-	window.ws = $.websocket("ws://81.57.248.8:8080", {
+	window.ws = $.websocket("ws://<ip>:<port>", {
 		open: function(e) {
 			$(".chatWindow .chatbox .infoConnection .status").text("En ligne");
 			$(".statusButton").css({"background-color" : "#28a745"});
