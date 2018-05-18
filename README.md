@@ -81,7 +81,6 @@ Nous utilisons SemVer pour le versioning. Pour plus de détail, reportez-vous au
 **Stanley LOUIS JEAN** - *Étudiant* - [MrStan](https://github.com/mrstan3772)
 
 ## Licence
-
-[https://creativecommons.org/publicdomain/zero/1.0/ [[https://camo.githubusercontent.com/da896acd40e1f4f275c2da6e1d830b2865803fc8/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f702f7a65726f2f312e302f38387833312e706e67]]]
+![alt text](https://camo.githubusercontent.com/da896acd40e1f4f275c2da6e1d830b2865803fc8/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f702f7a65726f2f312e302f38387833312e706e67)
 
 ## Remerciements
