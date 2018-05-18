@@ -55,7 +55,7 @@ Enfin lancer les serveurs en cliquant sur **call.bat**.
 
 [Symfony](https://symfony.com/doc/3.4/setup.html "Télécharger et installer Symfony") - Framework MVC libre écrit en PHP (Utiliser la version 3.4)
 
-[Memcached](https://memcached.org/)Memcached est un système d'usage général servant à gérer la mémoire cache distribuée. Dans notre cas on s'en sert comme un service de gestionnaire de session. Cela nous permet de partager des sessions entre plusieurs serveurs(WebSocket et Apache).
+[Memcached](https://memcached.org/) - Memcached est un système d'usage général servant à gérer la mémoire cache distribuée. Dans notre cas on s'en sert comme un service de gestionnaire de session. Cela nous permet de partager des sessions entre plusieurs serveurs(WebSocket et Apache).
 
 ## Contribution
 
@@ -64,6 +64,7 @@ Veuillez lire CONTRIBUTING.md pour plus de détails sur notre code de conduite e
 ## Version
 
 Version : 1.0.0.rc1
+
 Nous utilisons SemVer pour le versioning. Pour plus de détail, reportez-vous au lien en cliquant [ici](https://semver.org/).
 
 ## Auteurs
