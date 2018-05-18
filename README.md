@@ -72,24 +72,22 @@ La dernière étape de la configuration consiste à se rendre dans le répertoir
 
 `window.ws = $.websocket("ws://<ip>:<port>", {`
 
-Remplacer l'ip et le port de connection du serveur WebSocket afin que ceux-ci soient identiques à ceux présent dans le fichier **"app.ini"**.
+Remplacer l'ip et le port de connexion du serveur WebSocket afin que ceux-ci soient identiques à ceux présent dans le fichier **"app.ini"**.
 
-### Création des tables dans la base de données (SQL Serveur)
+### Création des tables dans la base de données (SQL Server)
 
-Désormais nous allons nous pencher sur la création des tables requises pour pouvoir enregistrer les informations utilisateur. Il suffira simplement d'ouvrir le répertoire **"database"** et importer les scripts suivants (vous pouvez aussi utiliser SQL Server Management Studio (SSMS) pour vous simplifier la tâche) :  
+Désormais nous allons nous pencher sur la création des tables requises pour pouvoir enregistrer les informations utilisateur. Il suffira simplement d'ouvrir le répertoire **"database"** et importer les scripts suivants (vous pouvez utiliser SQL Server Management Studio dit également SSMS pour vous simplifier la tâche) :  
 
 - **"CHAT.category.Table.sql"**
 - **"CHAT.users.Table.sql"**
 - **"CHAT.wsMessages.Table.sql"**
 - **"CHAT.wsPrivateMessages.Table.sql"**
 
-Une fois l'importation finalisé, nous allons devoir remplir la table **"category"** avec 3 champs. Placez-vous dans la base de données ou vous avez crée les tables puis exéctuer le script sql suivant : 
+Une fois l'importation finalisé, nous allons devoir remplir la table **"category"** avec 3 champs. Placez-vous dans la base de données ou vous avez créé les tables puis exéctuer le script sql suivant : 
 
-`
-INSERT INTO CHAT.category VALUES('Étudiant')
-INSERT INTO CHAT.category VALUES('Professeur')
-INSERT INTO CHAT.category VALUES('Entreprise')
-`
+`INSERT INTO CHAT.category VALUES('Étudiant')`
+`INSERT INTO CHAT.category VALUES('Professeur')`
+`INSERT INTO CHAT.category VALUES('Entreprise')`
 
 *Remarque :* Avant ou pendant leur importation(avec SSMS) pour que ceux-ci puisse s'exécuter il va falloir modifier la ligne suivante `USE [databaseName]` pour chaque script avec le nom de la base de données dans laquelle vous souhaitez stocker les informations.
 
