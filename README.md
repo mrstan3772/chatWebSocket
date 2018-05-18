@@ -85,11 +85,13 @@ Désormais nous allons nous pencher sur la création des tables requises pour po
 
 Une fois l'importation finalisé, nous allons devoir remplir la table **"category"** avec 3 champs. Placez-vous dans la base de données ou vous avez créé les tables puis exéctuer le script sql suivant : 
 
-`INSERT INTO CHAT.category VALUES('Étudiant')
+```sql
+INSERT INTO CHAT.category VALUES('Étudiant')
 
 INSERT INTO CHAT.category VALUES('Professeur')
 
-INSERT INTO CHAT.category VALUES('Entreprise')`
+INSERT INTO CHAT.category VALUES('Entreprise')
+```
 
 *Remarque :* Avant ou pendant leur importation(avec SSMS), pour que ceux-ci puisse s'exécuter il va falloir modifier la ligne suivante `USE [databaseName]` pour chaque script avec le nom de la base de données dans laquelle vous souhaitez stocker les informations.
 
