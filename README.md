@@ -26,16 +26,23 @@ http://angedon.000webhostapp.com/gif3.gif
 ## Déploiement
 
 Une fois à la racine du repertoire du projet rendez vous dans le dossier **"inc"** puis faite un clique droit sur le fichier **"app.ini"** et cliquer sur modifier.  Une fois cette démarche effectué faire les modifications suivante : 
+
 ![alt text](https://zupimages.net/up/18/20/9o9w.png)
+
 ![alt text](https://zupimages.net/up/18/20/6jea.png)
+
 ![alt text](https://zupimages.net/up/18/20/pqxh.png)
+
 ![alt text](https://zupimages.net/up/18/20/shyr.png)
 
 Il faudra modifier le contenu des fichiers d'exécution du serveur WebSocket et du deamon memcached.Pour celà veuillez vous rendre à la racine du dossier contenant le projet(chat) puis faite un clique droit sur le fichier **"call.bat"** et cliquer sur modifier : 
+
 ![alt text](https://zupimages.net/up/18/20/3y74.png)
+
 ![alt text](https://zupimages.net/up/18/20/3n9h.png)
 
 Il faudra par la suite changer les chemins pour les adapter aux chemins ou se situe le repertoire du projet(chat). Ceux-ci doivent pointer vers les scripts batch **"memcached.bat"** et **webSocketServer.bat** comme ci-dessous :
+
 ![alt text](https://zupimages.net/up/18/20/tsfv.png)
 
 Une fois les changements terminés, enregistrer les modifications.
