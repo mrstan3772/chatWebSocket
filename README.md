@@ -50,9 +50,30 @@ Une fois les changements terminés, enregistrer les modifications.
 Enfin lancer les serveurs en cliquant sur **call.bat**.
 
 ## Construit avec
-*************************************************************************************************************************************[Composer](https://getcomposer.org/ "Télécharger et installer composer") - Composer est un gestionnaire de dépendances libre écrit en PHP
+
+[Composer](https://getcomposer.org/ "Télécharger et installer composer") - Composer est un gestionnaire de dépendances libre écrit en PHP
 
 [Symfony](https://symfony.com/doc/3.4/setup.html "Télécharger et installer Symfony") - Framework MVC libre écrit en PHP (Utiliser la version 3.4)
 
 [Memcached](https://memcached.org/)Memcached est un système d'usage général servant à gérer la mémoire cache distribuée. Dans notre cas on s'en sert comme un service de gestionnaire de session. Cela nous permet de partager des sessions entre plusieurs serveurs(WebSocket et Apache).
 
+## Contribution
+
+Veuillez lire CONTRIBUTING.md pour plus de détails sur notre code de conduite et sur le processus de soumission des demandes d'extraction.
+
+## Version
+
+Version : 1.0.0.rc1
+Nous utilisons SemVer pour le versioning. Pour plus de détail, reportez-vous au lien en cliquant [ici](https://semver.org/).
+
+## Auteurs
+
+**Wei JIE** - *Étudiant* - [Ailuro](https://github.com/weijie98)
+
+**Stanley LOUIS JEAN** - *Étudiant* - [MrStan](https://github.com/mrstan3772)
+
+## Licence
+
+[https://creativecommons.org/publicdomain/zero/1.0/ [[https://camo.githubusercontent.com/da896acd40e1f4f275c2da6e1d830b2865803fc8/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f702f7a65726f2f312e302f38387833312e706e67]]]
+
+## Remerciements
