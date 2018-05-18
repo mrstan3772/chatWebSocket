@@ -109,7 +109,7 @@ Enfin lancer les serveurs en cliquant sur **call.bat**.
 
 ## Contribution
 
-Veuillez lire CONTRIBUTING.md pour plus de détails sur notre code de conduite et sur le processus de soumission des demandes d'extraction.
+Veuillez lire [CONTRIBUTING.md](CONTRIBUTING.md) pour plus de détails sur notre code de conduite et sur le processus de soumission des demandes d'extraction.
 
 ## Version
 
