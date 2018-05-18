@@ -68,7 +68,30 @@ Il faudra également changer le chemin pour l'adapter au chemin ou se situe votr
 
 Une fois les changements terminés, enregistrer les modifications.
 
-La dernière étape de la configuration consiste à ce rendre dans le répertoire **"cdn"** puis ouvrir le fichier **"chat.js"** et modifier la ligne suivante : 
+La dernière étape de la configuration consiste à se rendre dans le répertoire **"cdn"** puis ouvrir le fichier **"chat.js"** et modifier la ligne de code suivante : 
+
+`window.ws = $.websocket("ws://<ip>:<port>", {`
+
+Remplacer l'ip et le port de connection du serveur WebSocket afin que ceux-ci soient identiques à ceux présent dans le fichier **"app.ini"**.
+
+### Création des tables dans la base de données (SQL Serveur)
+
+Désormais nous allons nous pencher sur la création des tables requises pour pouvoir enregistrer les informations utilisateur. Il suffira simplement d'ouvrir le répertoire **"database"** et importer les scripts suivants (vous pouvez aussi utiliser SQL Server Management Studio (SSMS) pour vous simplifier la tâche) :  
+
+- **"CHAT.category.Table.sql"**
+- **"CHAT.users.Table.sql"**
+- **"CHAT.wsMessages.Table.sql"**
+- **"CHAT.wsPrivateMessages.Table.sql"**
+
+Une fois l'importation finalisé, nous allons devoir remplir la table **"category"** avec 3 champs. Placez-vous dans la base de données ou vous avez crée les tables puis exéctuer le script sql suivant : 
+
+`
+INSERT INTO CHAT.category VALUES('Étudiant')
+INSERT INTO CHAT.category VALUES('Professeur')
+INSERT INTO CHAT.category VALUES('Entreprise')
+`
+
+*Remarque :* Avant ou pendant leur importation(avec SSMS) pour que ceux-ci puisse s'exécuter il va falloir modifier la ligne suivante `USE [databaseName]` pour chaque script avec le nom de la base de données dans laquelle vous souhaitez stocker les informations.
 
 Enfin lancer les serveurs en cliquant sur **call.bat**.
 
