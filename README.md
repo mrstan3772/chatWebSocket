@@ -31,11 +31,13 @@ Il faudra modifier les fichiers d'exécutions du serveur webSocket et du deamon 
 ![alt text](https://zupimages.net/up/18/20/3y74.png)
 ![alt text](https://zupimages.net/up/18/20/3n9h.png)
 ![alt text](https://zupimages.net/up/18/20/tsfv.png)
+
 Il faudra par la suite changer le chemin pour l'adapter au chemin ou se situe votre repertoire. 
 Une fois les changements terminés enregistrer les modifications.
 
 Ensuite modifier le fichier d'execution du serveur serveur webSocket veuillez vous rendre à la racine du projet puis faite un clique droit sur le fichier **"webSocketServer.bat"** et cliquer sur modifier (même démarche que précedement):
 ![alt text](https://zupimages.net/up/18/20/3ch8.png)
+
 Il faudra également changer le chemin pour l'adapter au chemin ou se situe votre repertoire. 
 Une fois les changements terminés enregistrer les modifications.
 
