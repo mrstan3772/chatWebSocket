@@ -23,7 +23,7 @@ Afin de pouvoir faire fonctionner ce projet, il faut :
 
 Ouvrir le terminal(cmd). 
 
-Utiliser la commande `composer install` depuis le répertoir **"inc"** du projet(chat). Ne pas répondre aux questions si vous en voyez durant l'installation(appuyer sur la touche entrée pour passer). 
+Utiliser la commande `composer install` depuis le répertoir **"inc"** du projet(chat). Ne pas répondre aux questions si vous en voyez durant l'installation(appuyer sur la touche entrée pour passer). Une fois cette étape faite vous aurez tout le nécessaire ainsi que Symfony en version 3.4.
 
 ### Les extensions
 
