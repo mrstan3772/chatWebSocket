@@ -70,7 +70,9 @@ Une fois les changements terminés, enregistrer les modifications.
 
 La dernière étape de la configuration consiste à se rendre dans le répertoire **"cdn"** puis ouvrir le fichier **"chat.js"** et modifier la ligne de code suivante : 
 
-`window.ws = $.websocket("ws://<ip>:<port>", {`
+```javascript
+window.ws = $.websocket("ws://<ip>:<port>", {
+```
 
 Remplacer l'ip et le port de connexion du serveur WebSocket afin que ceux-ci soient identiques à ceux présent dans le fichier **"app.ini"**.
 
