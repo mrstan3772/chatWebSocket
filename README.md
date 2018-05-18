@@ -49,7 +49,7 @@ Une fois cette démarche effectué faire les modifications suivante :
 
 ![alt text](https://zupimages.net/up/18/20/k3eh.png)
 
-*Remarque : *Ne pas oublier de mettre les informations de connexion à la base de données entre `'`.
+*Remarque : * Ne surtout pas oublier de mettre les informations de connexion à la base de données entre `''`.
 
 Il faudra par la suite modifier le contenu des fichiers d'exécution du serveur WebSocket et du deamon memcached.Pour celà veuillez vous rendre à la racine du dossier contenant le projet(chat) puis faite un clique droit sur le fichier **"call.bat"** et cliquer sur modifier : 
 
