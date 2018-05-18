@@ -25,9 +25,13 @@ Ouvrir le terminal(cmd).
 
 Utiliser la commande `composer install` depuis le répertoir **"inc"** du projet(chat). Ne pas répondre aux questions si vous en voyez durant l'installation(appuyer sur la touche entrée pour passer). 
 
-http://angedon.000webhostapp.com/memcached.gif
+### Les extensions
 
-http://angedon.000webhostapp.com/gif3.gif
+[![Driver PHP](https://zupimages.net/up/18/20/wtsy.png)](https://vimeo.com/270703992 "Driver PHP - Cliquer pour regarder!")
+
+### Service Memcached pour Windows
+
+[![Memcached Windows](https://zupimages.net/up/18/20/ty0w.png)](https://vimeo.com/270697711 "Memcached Windows - Cliquer pour regarder !")
 
 ## Déploiement
 
