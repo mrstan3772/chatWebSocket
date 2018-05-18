@@ -42,8 +42,8 @@ Une fois les changements terminés enregistrer les modifications.
 Enfin lancer les serveurs en cliquant sur **call.bat** !
 
 ##Construit avec
-![Composer](https://getcomposer.org/ "Télécharger et installer composer") - Composer est un gestionnaire de dépendances libre écrit en PHP
-![Symfony](https://symfony.com/doc/3.4/setup.html "Télécharger et installer Symfony") - Framework MVC libre écrit en PHP (Utiliser la version 3.4)
+[Composer](https://getcomposer.org/ "Télécharger et installer composer") - Composer est un gestionnaire de dépendances libre écrit en PHP
+[Symfony](https://symfony.com/doc/3.4/setup.html "Télécharger et installer Symfony") - Framework MVC libre écrit en PHP (Utiliser la version 3.4)
 
 Memcached est un système d'usage général servant à gérer la mémoire cache distribuée. On s'en sert comme gestionnaire de session.
 Cela nous permets partager des sessions entre plusieurs serveur.
