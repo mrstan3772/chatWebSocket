@@ -35,7 +35,7 @@ Utiliser la commande `composer install` depuis le répertoir **"inc"** du projet
 
 ## Déploiement
 
-Une fois à la racine du repertoire du projet rendez vous dans le dossier **"inc"** puis faite un clique droit sur le fichier **"app.ini"** et cliquer sur modifier.  Une fois cette démarche effectué faire les modifications suivante : 
+Une fois à la racine du repertoire du projet rendez vous dans le dossier **"inc"** puis faite un clique droit sur le fichier **"app.ini"** et cliquer sur modifier. Voici une démonstration :
 
 ![alt text](https://zupimages.net/up/18/20/9o9w.png)
 
@@ -43,7 +43,9 @@ Une fois à la racine du repertoire du projet rendez vous dans le dossier **"inc
 
 ![alt text](https://zupimages.net/up/18/20/pqxh.png)
 
-![alt text](https://zupimages.net/up/18/20/shyr.png)
+Une fois cette démarche effectué faire les modifications suivante : 
+
+![alt text](https://zupimages.net/up/18/20/k3eh.png)
 
 Il faudra modifier le contenu des fichiers d'exécution du serveur WebSocket et du deamon memcached.Pour celà veuillez vous rendre à la racine du dossier contenant le projet(chat) puis faite un clique droit sur le fichier **"call.bat"** et cliquer sur modifier : 
 
