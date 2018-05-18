@@ -17,9 +17,10 @@ Afin de pouvoir faire fonctionner ce projet, il faut
 - Télécharger le driver memcache pour PHP 7 et version supérieur, il s'agit ici d'un driver non officiel car le développement est interrompus depuis la version 5.6 de PHP (lien : https://www.google.com/url?q=https://github.com/nono303/PHP7-memcache-dll&sa=D&source=hangouts&ust=1526720218599000&usg=AFQjCNGMpHC4a6RZlaDxGSP-oivQGR21pA)
 
 ## Installation
--![Sample Gif](http://angedon.000webhostapp.com/memcached.gif)
 
-+<img src="/art/sample.gif?raw=true" width="200px">
+http://angedon.000webhostapp.com/memcached.gif
+
+http://angedon.000webhostapp.com/gif3.gif
 
 ## Déploiement
 
