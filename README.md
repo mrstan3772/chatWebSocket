@@ -35,6 +35,8 @@ Utiliser la commande `composer install` depuis le répertoir **"inc"** du projet
 
 ## Déploiement
 
+### Configuration des fichiers nécessaire au démarrage et à la connexion au serveur WebSocket
+
 Une fois à la racine du repertoire du projet rendez vous dans le dossier **"inc"** puis faite un clique droit sur le fichier **"app.ini"** et cliquer sur modifier. Voici une démonstration :
 
 ![alt text](https://zupimages.net/up/18/20/9o9w.png)
@@ -65,6 +67,8 @@ Il faudra également changer le chemin pour l'adapter au chemin ou se situe votr
 ![alt text](https://zupimages.net/up/18/20/3ch8.png)
 
 Une fois les changements terminés, enregistrer les modifications.
+
+La dernière étape de la configuration consiste à ce rendre dans le répertoire **"cdn"** puis ouvrir le fichier **"chat.js"** et modifier la ligne suivante : 
 
 Enfin lancer les serveurs en cliquant sur **call.bat**.
 
