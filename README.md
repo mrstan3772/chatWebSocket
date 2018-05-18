@@ -37,7 +37,7 @@ Utiliser la commande `composer install` depuis le répertoir **"inc"** du projet
 
 ### Configuration des fichiers nécessaire au démarrage et à la connexion au serveur WebSocket
 
-Une fois à la racine du repertoire du projet rendez vous dans le dossier **"inc"** puis faite un clique droit sur le fichier **"app.ini"** et cliquer sur modifier. Voici une démonstration :
+Une fois à la racine du repertoire du projet, rendez vous dans le dossier **"inc"** puis faite un clique droit sur le fichier **"app.ini"** et cliquer sur modifier. Voici une démonstration :
 
 ![alt text](https://zupimages.net/up/18/20/9o9w.png)
 
@@ -85,11 +85,11 @@ Désormais nous allons nous pencher sur la création des tables requises pour po
 
 Une fois l'importation finalisé, nous allons devoir remplir la table **"category"** avec 3 champs. Placez-vous dans la base de données ou vous avez créé les tables puis exéctuer le script sql suivant : 
 
-`INSERT INTO CHAT.category VALUES('Étudiant')`
-`INSERT INTO CHAT.category VALUES('Professeur')`
-`INSERT INTO CHAT.category VALUES('Entreprise')`
+`INSERT INTO CHAT.category VALUES('Étudiant')  
+INSERT INTO CHAT.category VALUES('Professeur')  
+INSERT INTO CHAT.category VALUES('Entreprise')`
 
-*Remarque :* Avant ou pendant leur importation(avec SSMS) pour que ceux-ci puisse s'exécuter il va falloir modifier la ligne suivante `USE [databaseName]` pour chaque script avec le nom de la base de données dans laquelle vous souhaitez stocker les informations.
+*Remarque :* Avant ou pendant leur importation(avec SSMS), pour que ceux-ci puisse s'exécuter il va falloir modifier la ligne suivante `USE [databaseName]` pour chaque script avec le nom de la base de données dans laquelle vous souhaitez stocker les informations.
 
 Enfin lancer les serveurs en cliquant sur **call.bat**.
 
