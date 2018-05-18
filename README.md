@@ -19,6 +19,12 @@ Afin de pouvoir faire fonctionner ce projet, il faut :
 
 ## Installation
 
+### Les dépendances
+
+Ouvrir le terminal(cmd). 
+
+Utiliser la commande `composer install` depuis le répertoir **"inc"** du projet(chat). Ne pas répondre aux questions si vous en voyez durant l'installation(appuyer sur la touche entrée pour passer). 
+
 http://angedon.000webhostapp.com/memcached.gif
 
 http://angedon.000webhostapp.com/gif3.gif
@@ -81,6 +87,10 @@ Nous utilisons SemVer pour le versioning. Pour plus de détail, reportez-vous au
 **Stanley LOUIS JEAN** - *Étudiant* - [MrStan](https://github.com/mrstan3772)
 
 ## Licence
+
 ![alt text](https://camo.githubusercontent.com/da896acd40e1f4f275c2da6e1d830b2865803fc8/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f702f7a65726f2f312e302f38387833312e706e67)
 
 ## Remerciements
+
+Chat réalisé à partir du tutoriel : 
+https://subinsb.com/live-group-chat-with-php-jquery-websocket/
