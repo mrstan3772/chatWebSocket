@@ -332,6 +332,7 @@ window.connect = function(){
                             );
                         var pressed = false;
                         $('.field_messages_user_' + elem.id).emojioneArea({
+			    filtersPosition: "bottom",
                             events: {
                                 keyup: function (editor, event) {
                                     if (event.which == 13) {
