@@ -120,8 +120,8 @@ var dropzoneOptions = {
         this.on("success", function (file, response) {
             $("#errorMessages").html(response);
             if(response.length == 0){
-                var host = window.location.hostname;
-                window.location.href = 'http://'+host+'/chat/chat/user/profile.php';
+                //var host = window.location.hostname;
+                window.location.href = '../user/profile.php';
             }else{
                 myDropzone.destroy();
                 myDropzone = new Dropzone("div#myDropZone", dropzoneOptions);
