@@ -78,7 +78,7 @@ window.ws = $.websocket("ws://<ip>:<port>", {
 
 Remplacer l'ip et le port de connexion du serveur WebSocket afin que ceux-ci soient identiques à ceux présent dans le fichier **"app.ini"**.
 
-*Remarque :* Si vous êtes derrière un routeur alors mettez l'adresse publique qui redirige vers l'adresse privée qui doit être dans le fichier **"app.ini"**. Assurez vous que toutes les redirections(serveur HTTP, WebSocket, Memcached) sont actives avec le protocole TCP et sur les bons ports. 
+*Remarque :* Si vous êtes derrière un routeur alors mettez l'adresse publique qui redirige vers l'adresse privée(qui doit être dans le fichier **"app.ini"**). Assurez vous que toutes les redirections(serveur HTTP, WebSocket, Memcached) sont actives avec le protocole TCP et sur les bons ports. 
 
 ### Création des tables dans la base de données (SQL Server)
 
