@@ -101,7 +101,7 @@ INSERT INTO CHAT.category VALUES('Entreprise')
 
 *Remarque :* Avant ou pendant leur importation(avec SSMS), pour que ceux-ci puisse s'exécuter il va falloir modifier la ligne suivante `USE [databaseName]` pour chaque script avec le nom de la base de données dans laquelle vous souhaitez stocker les informations.
 
-Enfin lancer les serveurs en cliquant sur **call.bat**.
+Enfin lancer les services en cliquant sur **call.bat**.
 
 ## Structure de l'application
 
