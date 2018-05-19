@@ -3,7 +3,7 @@
   window.pageTitleNotification = (function () {
 
       var config = {
-          currentTitle: null,
+          currentTitle: 'Chat en ligne',
           interval: null
       };
 
