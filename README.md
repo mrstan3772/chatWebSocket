@@ -78,6 +78,8 @@ window.ws = $.websocket("ws://<ip>:<port>", {
 
 Remplacer l'ip et le port de connexion du serveur WebSocket afin que ceux-ci soient identiques à ceux présent dans le fichier **"app.ini"**.
 
+*Remarque :* Si vous êtes derrière un routeur alors mettez l'adresse publique qui redirige vers l'adresse privée qui doit être dans le fichier **"app.ini"**. Assurez vous que toutes les redirections(serveur HTTP, WebSocket, Memcached) sont actives avec le protocole TCP et sur les bons ports. 
+
 ### Création des tables dans la base de données (SQL Server)
 
 Désormais nous allons nous pencher sur la création des tables requises pour pouvoir enregistrer les informations utilisateur. Il suffira simplement d'ouvrir le répertoire **"database"** et importer les scripts suivants (vous pouvez utiliser SQL Server Management Studio dit également SSMS pour vous simplifier la tâche) :  
@@ -100,6 +102,10 @@ INSERT INTO CHAT.category VALUES('Entreprise')
 *Remarque :* Avant ou pendant leur importation(avec SSMS), pour que ceux-ci puisse s'exécuter il va falloir modifier la ligne suivante `USE [databaseName]` pour chaque script avec le nom de la base de données dans laquelle vous souhaitez stocker les informations.
 
 Enfin lancer les serveurs en cliquant sur **call.bat**.
+
+## Structure de l'application
+
+[![SessionProvider](http://socketo.me/assets/img/RatchetSessions.png)](http://socketo.me/docs/sessions "SessionProvider - Cliquer pour consulter la documentation sur les sessions et WebSocket !")
 
 ## Construit avec
 
