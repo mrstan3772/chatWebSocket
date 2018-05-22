@@ -17,6 +17,8 @@ Afin de pouvoir faire fonctionner ce projet, il faut :
 - Télécharger le driver PHP de Microsoft a la version 4.3 pour SQL Server. Utiliser uniquement le module pour une connexion PDO en fonction de votre version PHP et selon que le serveur apache soit en mode TS ou NTS (lien : https://www.microsoft.com/en-us/download/details.aspx?id=55642)
 - Télécharger le driver memcache pour PHP 7 et version supérieur, il s'agit ici d'un driver non officiel car le développement est interrompus depuis la version 5.6 de PHP (lien : https://www.google.com/url?q=https://github.com/nono303/PHP7-memcache-dll&sa=D&source=hangouts&ust=1526720218599000&usg=AFQjCNGMpHC4a6RZlaDxGSP-oivQGR21pA)
 
+*Remarque* : Pour PHP 7.2 il est possible de télécharger le driver de Microsoft a la version 5.3 (lien : https://www.microsoft.com/en-us/download/details.aspx?id=56729)
+
 ## Installation
 
 ### Les dépendances
