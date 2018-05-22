@@ -15,7 +15,7 @@ Afin de pouvoir faire fonctionner ce projet, il faut :
 - Télécharger composer pour installer les dépendances PHP (lien : https://getcomposer.org/)
 - Télécharger le deamon Memcached (lien Windows : https://commaster.net/content/installing-memcached-windows | lien Linux : https://memcached.org/)
 - Télécharger le driver PHP de Microsoft a la version 4.3 pour SQL Server. Utiliser uniquement le module pour une connexion PDO en fonction de votre version PHP et selon que le serveur apache soit en mode TS ou NTS (lien : https://www.microsoft.com/en-us/download/details.aspx?id=55642)
-- Télécharger le driver memcache pour PHP 7 et version supérieur, il s'agit ici d'un driver non officiel car le développement est interrompus depuis la version 5.6 de PHP (lien : https://commaster.net/content/installing-memcached-windows)
+- Télécharger le driver memcache pour PHP 7 et version supérieur, il s'agit ici d'un driver non officiel car le développement est interrompus depuis la version 5.6 de PHP (lien : https://github.com/nono303/PHP7-memcache-dll)
 
 *Remarque* : Pour PHP 7.2 il est possible de télécharger le driver de Microsoft a la version 5.2 (lien : https://www.microsoft.com/en-us/download/details.aspx?id=56729)
 
